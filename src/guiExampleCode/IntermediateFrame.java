@@ -61,6 +61,8 @@ public class IntermediateFrame extends JFrame{
         centerPnl.add(scroller);
 
         mainPnl.add(bottomPnl, BorderLayout.SOUTH);
+
+
         //Order matters with GridLayout
         bottomPnl.setLayout(new GridLayout(1,4));
         bottomPnl.add(colorChangeBtn);
